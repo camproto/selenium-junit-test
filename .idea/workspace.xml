@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78812562-dd89-4076-bdee-4a25e07b6e03" name="Changes" comment="junit5 test mit plain selenium">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Junit5PlainSeleniumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/WebDriverTest.java" afterDir="false" />
+    <list default="true" id="78812562-dd89-4076-bdee-4a25e07b6e03" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Junit5PlainSeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Junit5PlainSeleniumTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,6 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/git-repos/selenium-junit-test/selenium",
     "node.js.detected.package.eslint": "true",
@@ -66,6 +59,7 @@
       <recent name="C:\git-repos\selenium-junit-test\selenium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\git-repos\selenium-junit-test\selenium" />
       <recent name="C:\git-repos\selenium-junit-test\selenium\tmp" />
     </key>
   </component>
@@ -139,12 +133,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675066189398</updated>
-      <workItem from="1675066190503" duration="7636000" />
+      <workItem from="1675066190503" duration="8802000" />
     </task>
+    <task id="LOCAL-00001" summary="junit5 test mit plain selenium working, but web driver manager test does not">
+      <created>1675073858189</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675073858189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -162,5 +167,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="junit5 test mit plain selenium working, but web driver manager test does not" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit5 test mit plain selenium working, but web driver manager test does not" />
   </component>
 </project>

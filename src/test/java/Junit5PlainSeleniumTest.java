@@ -8,10 +8,11 @@ public class Junit5PlainSeleniumTest {
 
     @BeforeEach
     public void setup() {
-//        System.setProperty("webdriver.firefox.driver","/selenium/geckodriver");
+// in v4.8 nicht notwendig, wenn ff.exe       System.setProperty("webdriver.firefox.driver","/selenium/geckodriver.exe");
+//        System.setProperty("webdriver.gecko.driver","selenium/geckodriver.exe"); // 3.13.0 needs this property
         FirefoxOptions options = new FirefoxOptions();
         options.setBinary("selenium/FirefoxPortableESR102/App/Firefox64/firefox.exe");
-        options.addArguments("-headless");
+//        options.addArguments("-headless");
         driver = new FirefoxDriver(options);
     }
 
