@@ -20,7 +20,7 @@ public class Junit5PlainSeleniumTest {
 
     @AfterEach
     public void tearDown() {
-//        driver.quit();
+        driver.quit();
     }
 
     @Test
