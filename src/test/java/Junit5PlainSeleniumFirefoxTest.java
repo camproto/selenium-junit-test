@@ -5,8 +5,10 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Junit5PlainSeleniumTest {
+public class Junit5PlainSeleniumFirefoxTest {
     WebDriver driver;
 
     @BeforeEach
@@ -27,6 +29,8 @@ public class Junit5PlainSeleniumTest {
     public void testTitle() {
         driver.get("https://www.heise.de/");
         Assertions.assertEquals("heise online - IT-News, Nachrichten und Hintergründe", driver.getTitle());
-
+        FluentWait<WebDriver> wait = new WebDriverWait(driver, 10L);
+        // not found, why?
+//        wait.until(presenceOfElementLocated(By.id("notice")));
     }
 }
